@@ -156,15 +156,7 @@ p {
 
     footer {
         position: relative;
-        top: 15vw;
-    }
-
-    footer p {
-        font-size: 1vw;
-        padding: 0;
-        position: relative;
-        top: 6vw;
-
+        top: 25vw;
     }
 
     .bold {

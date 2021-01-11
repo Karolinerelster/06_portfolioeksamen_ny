@@ -21,7 +21,7 @@
     top: 60vw;
     background-color: #004936;
     padding: 15vw;
-    height: 120vw;
+    height: 140vw;
 }
 
 #second_section h2 {
@@ -60,6 +60,12 @@
     #billederafmig {
         display: none;
     }
+
+    footer {
+        position: relative;
+        top: 65vw;
+    }
+
 }
 
 #theird_section {
@@ -123,15 +129,6 @@
 
 }
 
-#lillebold {
-    width: 100vw;
-    ;
-    height: auto;
-    background-image: url(pictures/helloworld.svg);
-    position: relative;
-
-}
-
 
 #theird_section button {
     background-color: transparent;
@@ -184,13 +181,7 @@
 
 }
 
-footer p {
-    position: relative;
-    top: 40vw;
-    font-size: 3vw;
-    text-align: center;
 
-}
 
 @keyframes hop_kf {
     0% {
@@ -467,12 +458,15 @@ footer p {
         position: relative;
         top: 25vw;
         background-color: #004936;
-        height: 20vw;
+        height: 15vw;
+
     }
 
     #second_section .section_wrapper {
         display: grid;
         grid-template-columns: 5fr 3fr;
+        position: relative;
+        top: -4vw;
     }
 
     #second_section h2 {
@@ -484,6 +478,8 @@ footer p {
         color: whitesmoke;
         line-height: 1.8vw;
         font-size: 1vw;
+        text-align: justify;
+        width: 32vw;
     }
 
     #second_section button {
@@ -512,22 +508,24 @@ footer p {
     .col #karo3 {
         position: relative;
         width: 60%;
-        left: 0vw;
-        top: -3vw;
         box-shadow: 1vw 1vw #DDDFDE;
+        top: -1vw;
 
 
     }
 
     #theird_section {
         position: relative;
-        top: 27vw;
-        height: 0vw;
+        top: 22vw;
     }
 
-    #section_wrapper3 {
+    #theird_section .section_wrapperet {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         position: relative;
-        left: 20vw;
+        top: 5vw;
+        height: 20%;
+
     }
 
     #portfolio {
@@ -545,28 +543,28 @@ footer p {
         padding-bottom: 15vw;
         line-height: 1.8vw;
         font-size: 1vw;
-        width: 20vw;
+        text-align: justify;
+        width: 32vw;
 
     }
 
     #theird_section .section_wrapper {
         display: none;
-
     }
 
     .boldefarver {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 20vw;
+        width: 15vw;
         grid-column-gap: 2vw;
         position: relative;
-        top: -40vw;
-        left: 50vw;
+        top: 10vw;
+        left: -5vw;
     }
 
     #laks {
-        width: 8vw;
-        height: 8vw;
+        width: 5vw;
+        height: 5vw;
         border-radius: 50%;
         background-color: #ED6B50;
         animation: pulse 2s infinite;
@@ -574,8 +572,8 @@ footer p {
     }
 
     #gul {
-        width: 8vw;
-        height: 8vw;
+        width: 5vw;
+        height: 5vw;
         border-radius: 50%;
         background-color: #D4D142;
         animation: slide 2s infinite;
@@ -584,8 +582,8 @@ footer p {
     }
 
     #roed {
-        width: 8vw;
-        height: 8vw;
+        width: 5vw;
+        height: 5vw;
         border-radius: 50%;
         background-color: #C83028;
         animation: pulse 2s infinite;
@@ -594,8 +592,8 @@ footer p {
     }
 
     #graa {
-        width: 8vw;
-        height: 8vw;
+        width: 5vw;
+        height: 5vw;
         border-radius: 50%;
         background-color: #DDDFDE;
         animation: slideup 2s infinite;
@@ -616,89 +614,80 @@ footer p {
 
     }
 
-    #totop {
-        display: none;
-    }
-
-    #lillebold {
-        display: none;
-    }
-
     footer {
         position: relative;
-        top: 25vw;
         height: 0vw;
+        top: -2vw;
     }
 
     footer p {
-        font-size: 1.5vw;
+        position: relative;
+        top: 22vw;
     }
 
+    .hop {
+        animation-name: hop_kf;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
 
-}
-
-.hop {
-    animation-name: hop_kf;
-    animation-duration: 0.8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-    animation-direction: alternate;
-
-}
-
-@keyframes hop_kf {
-    0% {
-        transform: translateY(-4vw);
     }
 
-    100% {
-        transform: translateY(10vw);
-        height: 39vw;
-    }
-}
+    @keyframes hop_kf {
+        0% {
+            transform: translateY(-4vw);
+        }
 
-@keyframes shake {
-    0% {
-        transform: translate(2px, 2px) rotate(0deg);
-    }
-
-    10% {
-        transform: translate(-1px, -2px) rotate(-1deg);
+        100% {
+            transform: translateY(10vw);
+            height: 39vw;
+        }
     }
 
-    20% {
-        transform: translate(-3px, 0px) rotate(1deg);
-    }
+    @keyframes shake {
+        0% {
+            transform: translate(2px, 2px) rotate(0deg);
+        }
 
-    30% {
-        transform: translate(3px, 2px) rotate(0deg);
-    }
+        10% {
+            transform: translate(-1px, -2px) rotate(-1deg);
+        }
 
-    40% {
-        transform: translate(1px, -1px) rotate(1deg);
-    }
+        20% {
+            transform: translate(-3px, 0px) rotate(1deg);
+        }
 
-    50% {
-        transform: translate(-1px, 2px) rotate(-1deg);
-    }
+        30% {
+            transform: translate(3px, 2px) rotate(0deg);
+        }
 
-    60% {
-        transform: translate(-3px, 1px) rotate(0deg);
-    }
+        40% {
+            transform: translate(1px, -1px) rotate(1deg);
+        }
 
-    70% {
-        transform: translate(3px, 1px) rotate(-1deg);
-    }
+        50% {
+            transform: translate(-1px, 2px) rotate(-1deg);
+        }
 
-    80% {
-        transform: translate(-1px, -1px) rotate(1deg);
-    }
+        60% {
+            transform: translate(-3px, 1px) rotate(0deg);
+        }
 
-    90% {
-        transform: translate(1px, 2px) rotate(0deg);
-    }
+        70% {
+            transform: translate(3px, 1px) rotate(-1deg);
+        }
 
-    100% {
-        transform: translate(1px, -2px) rotate(-1deg);
+        80% {
+            transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+            transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+            transform: translate(1px, -2px) rotate(-1deg);
+        }
     }
 }

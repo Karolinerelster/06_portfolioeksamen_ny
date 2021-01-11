@@ -157,6 +157,16 @@ button {
     background-color: #004936;
 }
 
+footer {
+    position: relative;
+}
+
+footer p {
+    position: relative;
+    font-size: 3vw;
+    text-align: center;
+}
+
 @media only screen and (min-width: 660px) {
 
     #menuknap {
@@ -276,15 +286,15 @@ button {
         text-align: left;
     }
 
-    footer {
-        position: relative;
-        bottom: -30vw;
-        left: 1vw;
-    }
 
     footer p {
-        text-align: center;
-
+        font-size: 1.5vw;
+        top: 5vw;
+        margin: 0vw;
+        padding: 0vw;
+        position: relative;
+        top: -2vw;
     }
+}
 
 }

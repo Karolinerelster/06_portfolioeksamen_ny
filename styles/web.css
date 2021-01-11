@@ -343,12 +343,8 @@ footer p {
 
     footer {
         position: relative;
-        top: -2vw;
-        height: 0vw;
+        top: 0vw;
     }
 
-    footer p {
-        font-size: 1.5vw;
-    }
 
 }
