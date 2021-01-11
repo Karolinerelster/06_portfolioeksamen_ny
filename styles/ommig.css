@@ -290,7 +290,7 @@ border: 0.1vw solid #004936;
     #second_section {
         position: relative;
         top: vw;
-        height: 40vw;
+        height: 30vw;
     }
 
     #second_section h3 {
@@ -316,38 +316,26 @@ border: 0.1vw solid #004936;
         left: 15vw;
     }
 
-    .col #karo1 {
-        position: relative;
-        width: 80%;
-        left: 10vw;
-        top: -2vw;
-        z-index: 0;
 
-    }
-
-    .col #karo2 {
-        position: relative;
-        width: 60%;
-        top: 0vw;
-        left: 5vw;
-    }
 
     .col #karo3 {
         position: relative;
-        width: 70%;
-        left: -6vw;
-        top: -30vw;
+        width: 80%;
+        left: 6vw;
+        top: 0vw;
+        ;
         box-shadow: 1vw 1vw #DDDFDE;
 
 
     }
 
 
+
     #theird_section {
         position: relative;
         top: 2vw;
         background-color: #004936;
-        height: 60vw;
+        height: 50vw;
     }
 
     #theird_section .section_wrapper {
@@ -355,6 +343,22 @@ border: 0.1vw solid #004936;
         grid-template-columns: 5fr 3fr;
         margin-left: 7vw;
         margin-right: 7vw;
+    }
+
+    .col #karo2 {
+        position: relative;
+        width: 40%;
+        top: 0vw;
+    }
+
+    .col #karo1 {
+        position: relative;
+        width: 40%;
+        top: -15vw;
+        left: 8vw;
+        z-index: 1;
+        box-shadow: 1vw 1vw #DDDFDE;
+
     }
 
     #theird_section .col {
@@ -379,25 +383,6 @@ border: 0.1vw solid #004936;
         color: white;
         top: -4.5vw;
 
-    }
-
-    #web5 {
-        width: 70%;
-        position: relative;
-        top: -10vw;
-    }
-
-    #web6 {
-        width: 70%;
-        position: relative;
-        top: -10vw;
-        left: 5vw;
-    }
-
-    #web7 {
-        width: 70%;
-        position: relative;
-        top: -10vw;
     }
 
 
@@ -456,31 +441,7 @@ border: 0.1vw solid #004936;
         margin-left: 7vw;
     }
 
-    #web9 {
-        width: 50%;
-        position: relative;
-        top: 4vw;
-        left: 5vw;
-    }
 
-    #web10 {
-        width: 50%;
-        position: relative;
-        top: 17vw;
-        left: -20vw;
-        z-index: 1;
-        box-shadow: -1vw 1vw #272B33;
-
-
-    }
-
-    #web11 {
-        width: 30%;
-        position: relative;
-        top: -11vw;
-        left: 30vw;
-
-    }
 
     .col p {
         font-size: 1vw;
@@ -530,7 +491,7 @@ border: 0.1vw solid #004936;
         padding: 0vw;
         width: 50vw;
         transform: scale(0.9);
-        top: -6vw;
+        top: -17vw;
 
 
     }
