@@ -71,17 +71,6 @@ h3 {
     color: #004936;
 }
 
-#prototype {
-    position: relative;
-    left: 16vw;
-}
-
-#wireframe {
-    position: relative;
-    left: 20vw;
-    top: 4vw
-}
-
 #fourth_section img {
     width: 50%;
 }
@@ -254,22 +243,6 @@ footer p {
         top: -10vw;
     }
 
-
-
-
-    #prototype {
-        position: relative;
-        top: -12vw;
-        left: -1vw;
-
-    }
-
-    #wireframe {
-        position: relative;
-        top: 1.5vw;
-        left: -14vw;
-    }
-
     #fourth_section {
         position: relative;
         top: 10vw;
@@ -331,6 +304,14 @@ footer p {
         text-align: justify;
         margin: 0vw;
         padding-right: 5vw;
+    }
+
+    #karenrelsterdk {
+        width: 15vw;
+        padding: 1.5vw;
+        margin: 0vw;
+        font-size: 1.2vw;
+        top: 2vw;
     }
 
     footer {

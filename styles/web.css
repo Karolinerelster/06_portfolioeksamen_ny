@@ -276,17 +276,11 @@ footer p {
         color: #004936;
     }
 
-    #prototype {
-        position: relative;
-        top: -12vw;
-        left: -1vw;
-
-    }
 
     #wireframe {
         position: relative;
         top: 1.5vw;
-        left: -14vw;
+        left: -15vw;
     }
 
     #fourth_section {
