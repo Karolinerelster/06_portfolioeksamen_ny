@@ -1,0 +1,306 @@
+h2 {
+    font-size: 7vw;
+    color: #004936;
+    margin-left: 10vw;
+    position: relative;
+    top: 3vw;
+}
+
+
+
+p {
+    font-size: 3vw;
+    margin-left: 10vw;
+    position: relative;
+    text-align: left;
+    margin-right: 10vw;
+
+}
+
+h3 {
+    margin-left: 10vw;
+    font-size: 4vw;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
+}
+
+
+#theird_section h3 {
+    color: white;
+}
+
+#theird_section {
+    position: relative;
+    top: 5vw;
+    background-color: #004936;
+    height: 120vw;
+}
+
+#theird_section .col {
+    position: relative;
+    top: 10vw;
+}
+
+#theird_section p {
+    color: white;
+}
+
+#theird_section button {
+    background-color: transparent;
+    border-color: whitesmoke;
+    padding: 3vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 3vw;
+    color: whitesmoke;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+}
+
+#theird_section button:hover {
+    background-color: whitesmoke;
+    border-style: hidden;
+    color: #004936;
+}
+
+#prototype {
+    position: relative;
+    left: 16vw;
+}
+
+#wireframe {
+    position: relative;
+    left: 20vw;
+    top: 4vw
+}
+
+#fourth_section .col {
+    position: relative;
+    top: 10vw;
+}
+
+#fourth_section h2 {
+    font-size: 7vw;
+    line-height: 7vw;
+    margin-right: 10vw;
+}
+
+@media only screen and (min-width: 800px) {
+
+
+
+    #first_section h2 {
+        position: relative;
+        top: -5vw;
+    }
+
+    #first_section p {
+        position: relative;
+        top: -5.6vw;
+        width: 20vw;
+        font-size: 1vw;
+        margin-left: 7vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+        color: #004936;
+        margin-left: 7vw;
+        ;
+        position: relative;
+
+    }
+
+    h3 {
+        font-size: 1.3vw;
+        margin: 0vw;
+    }
+
+    #second_section {
+        position: relative;
+        top: -3vw;
+        height: 35vw;
+    }
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        margin-left: 7vw;
+    }
+
+    #ux1 {
+        width: 30%;
+        position: relative;
+        left: 5vw;
+    }
+
+    #ux2 {
+        width: 50%;
+        position: relative;
+        top: -16vw;
+        left: 3vw;
+    }
+
+    #ux3 {
+        width: 30%;
+        position: relative;
+        top: -20vw;
+        left: 15vw;
+        box-shadow: 1vw 1vw #004936;
+        z-index: 1;
+    }
+
+    #ux4 {
+        width: 30%;
+        position: relative;
+        top: -20vw;
+        left: 10vw;
+    }
+
+    #theird_section {
+        position: relative;
+        top: 2vw;
+        background-color: #004936;
+        height: 50vw;
+    }
+
+    #theird_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    #theird_section .col {
+        position: relative;
+        top: 15vw;
+        border-style: none;
+        color: white;
+
+    }
+
+    #theird_section .col h3 {
+        position: relative;
+        border-style: none;
+        color: white;
+        top: -2.5vw;
+
+    }
+
+    #theird_section .col p {
+        position: relative;
+        border-style: none;
+        color: white;
+        top: -2.5vw;
+
+    }
+
+    #ux5 {
+        width: 25%;
+        position: relative;
+        top: -4vw;
+    }
+
+    #ux6 {
+        width: 25%;
+        position: relative;
+        top: -1vw;
+    }
+
+    #ux7 {
+        width: 25%;
+        position: relative;
+        top: -4vw;
+    }
+
+    #theird_section button {
+        background-color: transparent;
+        border-color: whitesmoke;
+        padding: 1vw;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        font-size: 1vw;
+        color: whitesmoke;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        width: 11vw;
+    }
+
+    #theird_section button:hover {
+        background-color: whitesmoke;
+        border-style: hidden;
+        color: #004936;
+    }
+
+    #prototype {
+        position: relative;
+        top: -10vw;
+        left: -1vw;
+
+    }
+
+    #wireframe {
+        position: relative;
+        top: 3.5vw;
+        left: -14vw;
+    }
+
+    #fourth_section {
+        position: relative;
+        top: 10vw;
+        height: 20vw;
+
+    }
+
+    #fourth_section .col {
+        position: relative;
+        top: 0vw;
+        height: 20vw;
+
+    }
+
+
+    #fourth_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        margin-left: 7vw;
+    }
+
+    #fourth_section h2 {
+        font-size: 3vw;
+        line-height: 3vw;
+        margin-right: 10vw;
+    }
+
+    #citat {
+        position: relative;
+        left: 7vw;
+        top: 3vw;
+    }
+
+    .col p {
+        font-size: 1vw;
+        text-align: justify;
+        margin: 0vw;
+        padding-right: 5vw;
+    }
+
+    footer {
+        position: relative;
+        top: 15vw;
+    }
+
+    footer p {
+        font-size: 1.5vw;
+    }
+
+}

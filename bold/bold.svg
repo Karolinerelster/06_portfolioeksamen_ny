@@ -1,0 +1,31 @@
+      height: 100%;
+      width: 100%;<svg id="Lag_1" data-name="Lag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 386 386">
+          <defs>
+              <style>
+                  .cls-1 {
+                      fill: url(#Ikke-navngivet_forløb_80);
+                  }
+
+                  .cls-2 {
+                      fill: url(#Ikke-navngivet_forløb_82);
+                  }
+
+              </style>
+              <radialGradient id="Ikke-navngivet_forløb_80" cx="529.25" cy="351.37" r="307.58" gradientTransform="translate(1185.55 305.35) rotate(139.54) scale(1 1.11)" gradientUnits="userSpaceOnUse">
+                  <stop offset="0.47" stop-color="#004935" />
+                  <stop offset="1" stop-opacity="0.8" />
+              </radialGradient>
+              <radialGradient id="Ikke-navngivet_forløb_82" cx="542.41" cy="328.02" r="79.4" gradientTransform="matrix(0.18, 0.98, -0.83, 0.15, 718.83, -255.7)" gradientUnits="userSpaceOnUse">
+                  <stop offset="0" stop-color="#fff" stop-opacity="0.8" />
+                  <stop offset="0.05" stop-color="#eaf0ee" stop-opacity="0.82" />
+                  <stop offset="0.24" stop-color="#a4beb7" stop-opacity="0.87" />
+                  <stop offset="0.42" stop-color="#699488" stop-opacity="0.92" />
+                  <stop offset="0.59" stop-color="#3b7364" stop-opacity="0.95" />
+                  <stop offset="0.75" stop-color="#1b5c4a" stop-opacity="0.98" />
+                  <stop offset="0.89" stop-color="#074e3a" stop-opacity="0.99" />
+                  <stop offset="1" stop-color="#004935" />
+              </radialGradient>
+          </defs>
+          <path class="cls-1" d="M682.5,392.5a194.36,194.36,0,0,1-2,27.68,190.32,190.32,0,0,1-6.6,29.36,193.09,193.09,0,0,1-184.43,136c-106.59,0-193-86.41-193-193a192.84,192.84,0,0,1,90-163.21,192.1,192.1,0,0,1,103-29.79C596.09,199.5,682.5,285.91,682.5,392.5Z" transform="translate(-296.5 -199.5)" />
+          <ellipse class="cls-2" cx="542.77" cy="327.74" rx="69.14" ry="82.05" transform="matrix(0.55, -0.83, 0.83, 0.55, -326.57, 400.03)" />
+      </svg>

@@ -1,0 +1,353 @@
+h2 {
+    font-size: 7vw;
+    color: #004936;
+    margin-left: 10vw;
+    position: relative;
+    top: 3vw;
+}
+
+
+
+p {
+    font-size: 3vw;
+    margin-left: 10vw;
+    position: relative;
+    text-align: left;
+    margin-right: 10vw;
+
+}
+
+h3 {
+    margin-left: 10vw;
+    font-size: 4vw;
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
+}
+
+
+#theird_section h3 {
+    color: white;
+}
+
+#theird_section {
+    position: relative;
+    top: 5vw;
+    background-color: #004936;
+    height: 140vw;
+}
+
+#theird_section .col {
+    position: relative;
+    top: 15vw;
+}
+
+#theird_section p {
+    color: white;
+}
+
+#theird_section button {
+    background-color: transparent;
+    border-color: whitesmoke;
+    padding: 3vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 3vw;
+    color: whitesmoke;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+}
+
+#theird_section button:hover {
+    background-color: whitesmoke;
+    border-style: hidden;
+    color: #004936;
+}
+
+#prototype {
+    position: relative;
+    left: 16vw;
+}
+
+#wireframe {
+    position: relative;
+    left: 20vw;
+    top: 4vw
+}
+
+#fourth_section {
+    position: relative;
+    height: 100vw;
+}
+
+#fourth_section .col {
+    position: relative;
+    top: 15vw;
+}
+
+#fourth_section h2 {
+    font-size: 7vw;
+    line-height: 7vw;
+    margin-right: 10vw;
+}
+
+footer {
+    height: 20vw;
+}
+
+footer p {
+    position: relative;
+    top: 15vw;
+}
+
+@media only screen and (min-width: 800px) {
+
+
+
+    #first_section h2 {
+        position: relative;
+        top: -5vw;
+    }
+
+    #first_section p {
+        position: relative;
+        top: -5.6vw;
+        width: 25vw;
+        font-size: 1vw;
+        margin-left: 7vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+        color: #004936;
+        margin-left: 7vw;
+        ;
+        position: relative;
+
+    }
+
+    h3 {
+        font-size: 1.3vw;
+        margin: 0vw;
+    }
+
+    #second_section {
+        position: relative;
+        top: vw;
+        height: 40vw;
+    }
+
+    #second_section h3 {
+        position: relative;
+        top: 2vw;
+    }
+
+    #second_section p {
+        position: relative;
+        top: 2vw;
+    }
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        margin-left: 7vw;
+    }
+
+    #billederafmig {
+        position: relative;
+        top: 0vw;
+        width: 45%;
+        left: 15vw;
+    }
+
+    .col #karo1 {
+        position: relative;
+        width: 80%;
+        left: 10vw;
+        top: -2vw;
+        z-index: 0;
+
+    }
+
+    .col #karo2 {
+        position: relative;
+        width: 60%;
+        top: 0vw;
+        left: 5vw;
+    }
+
+    .col #karo3 {
+        position: relative;
+        width: 70%;
+        left: -6vw;
+        top: -30vw;
+        box-shadow: 1vw 1vw #DDDFDE;
+
+
+    }
+
+
+    #theird_section {
+        position: relative;
+        top: 2vw;
+        background-color: #004936;
+        height: 60vw;
+    }
+
+    #theird_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    #theird_section .col {
+        position: relative;
+        top: 17vw;
+        border-style: none;
+        color: white;
+
+    }
+
+    #theird_section .col h3 {
+        position: relative;
+        border-style: none;
+        color: white;
+        top: -4.5vw;
+
+    }
+
+    #theird_section .col p {
+        position: relative;
+        border-style: none;
+        color: white;
+        top: -4.5vw;
+
+    }
+
+    #web5 {
+        width: 70%;
+        position: relative;
+        top: -10vw;
+    }
+
+    #web6 {
+        width: 70%;
+        position: relative;
+        top: -10vw;
+        left: 5vw;
+    }
+
+    #web7 {
+        width: 70%;
+        position: relative;
+        top: -10vw;
+    }
+
+
+    #theird_section button {
+        background-color: transparent;
+        border-color: whitesmoke;
+        padding: 1vw;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        font-size: 1vw;
+        color: whitesmoke;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        width: 11vw;
+    }
+
+    #theird_section button:hover {
+        background-color: whitesmoke;
+        border-style: hidden;
+        color: #004936;
+    }
+
+    #prototype {
+        position: relative;
+        top: -12vw;
+        left: -1vw;
+
+    }
+
+    #wireframe {
+        position: relative;
+        top: 1.5vw;
+        left: -14vw;
+    }
+
+    #fourth_section {
+        position: relative;
+        top: 10vw;
+        height: 35vw;
+
+
+    }
+
+    #fourth_section .col {
+        position: relative;
+        top: 3vw;
+        height: 20vw;
+
+    }
+
+
+    #fourth_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 3fr 5fr;
+        margin-left: 7vw;
+    }
+
+    #web9 {
+        width: 50%;
+        position: relative;
+        top: 4vw;
+        left: 5vw;
+    }
+
+    #web10 {
+        width: 50%;
+        position: relative;
+        top: 17vw;
+        left: -20vw;
+        z-index: 1;
+        box-shadow: -1vw 1vw #272B33;
+
+
+    }
+
+    #web11 {
+        width: 30%;
+        position: relative;
+        top: -11vw;
+        left: 30vw;
+
+    }
+
+    .col p {
+        font-size: 1vw;
+        text-align: justify;
+        margin: 0vw;
+        padding-right: 5vw;
+    }
+
+    footer {
+        position: relative;
+        top: 6vw;
+        height: 0vw;
+    }
+
+    footer p {
+        font-size: 1.5vw;
+    }
+
+}

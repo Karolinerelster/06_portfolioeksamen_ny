@@ -1,0 +1,655 @@
+#helloworld {
+    position: relative;
+    text-align: center;
+    top: 40vw;
+    z-index: -2;
+}
+
+#helloworld h2 {
+    position: relative;
+    font-size: 5.6vw;
+    color: #161a1e;
+
+}
+
+#first_section {
+    height: 60vw;
+}
+
+#second_section {
+    position: relative;
+    top: 60vw;
+    background-color: #004936;
+    padding: 15vw;
+    height: 120vw;
+}
+
+#second_section h2 {
+    color: whitesmoke;
+    font-size: 6vw;
+}
+
+#second_section p {
+    color: whitesmoke;
+    line-height: 7vw;
+    font-size: 4vw;
+}
+
+#second_section button {
+    background-color: transparent;
+    border-color: whitesmoke;
+    padding: 4vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 5vw;
+    color: whitesmoke;
+    position: relative;
+    top: 5vw;
+    left: -15.5vw;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+}
+
+#second_section button:hover {
+    background-color: whitesmoke;
+    border-style: hidden;
+    color: #004936;
+}
+
+@media only screen and (max-width: 800px) {
+    #billederafmig {
+        display: none;
+    }
+}
+
+#theird_section {
+    position: relative;
+    top: 60vw;
+}
+
+#portfolio {
+    font-size: 6vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    position: relative;
+    top: 10vw;
+
+}
+
+#portfoliotekst {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    position: relative;
+    top: 6vw;
+    padding-bottom: 15vw;
+    font-size: 4vw;
+}
+
+#theird_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+#sushispillet {
+    width: 50vw;
+    background-image: url(pictures/sushispillet_eksamen.svg);
+    height: 50vw;
+
+}
+
+#sushispillet:hover {
+    background-image: url(pictures/sushispilletjapan_eksamen.svg);
+    width: 100%;
+
+}
+
+#karenrelster {
+    width: 50vw;
+    height: 50vw;
+    background-image: url(pictures/karen_logo.svg);
+
+}
+
+#tshoppen {
+    height: 50vw;
+    background-image: url(pictures/tshoppen.svg);
+}
+
+#web1 {
+    width: 50vw;
+    height: 50vw;
+    background-image: url(pictures/flatdesign.svg);
+
+}
+
+#lillebold {
+    width: 100vw;
+    ;
+    height: auto;
+    background-image: url(pictures/helloworld.svg);
+    position: relative;
+
+}
+
+
+#theird_section button {
+    background-color: transparent;
+    border-color: #004936;
+    padding: 4vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 5vw;
+    color: #004936;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+    margin-left: 15vw;
+    margin-bottom: 8vw;
+    top: -5vw;
+}
+
+#theird_section button:hover {
+    background-color: #004936;
+    border-style: hidden;
+    color: whitesmoke;
+}
+
+#box_container2 img {
+    background-size: contain;
+    width: 90%;
+
+}
+
+#box_sprite2 {
+    width: 40vw;
+    height: 40vw;
+    position: relative;
+    left: 28vw;
+    top: 10vw;
+
+}
+
+#box_sprite2 img {
+    width: 43vw;
+    height: 43vw;
+}
+
+.hop {
+    animation-name: hop_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+footer p {
+    position: relative;
+    top: 40vw;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+@keyframes hop_kf {
+    0% {
+        transform: translateY(-4vw);
+    }
+
+    100% {
+        transform: translateY(40vw);
+        height: 39vw;
+
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.9);
+        }
+
+        70% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(0.9);
+        }
+
+
+    }
+
+    @keyframes slide {
+        0% {
+            transform: translateY(0vw);
+        }
+
+        50% {
+            transform: translateY(1vw)
+        }
+
+        100% {
+            transform: translateY(0vw);
+        }
+
+
+    }
+
+    @keyframes slideup {
+        0% {
+            transform: translateX(1vw);
+        }
+
+        50% {
+            transform: translateX(0vw)
+        }
+
+        100% {
+            transform: translateX(1vw);
+        }
+
+
+    }
+
+    @keyframes slideside {
+        0% {
+            transform: translateZ(1vw)
+        }
+
+        50% {
+            transform: translateZ(0vw)
+        }
+
+        100% {
+            transform: translateZ(1vw);
+        }
+
+
+    }
+
+
+    .bold1 {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+
+    }
+
+    .bold1 #boldroed {
+        width: 15vw;
+        height: 15vw;
+        border-radius: 50%;
+        background-color: #C83028;
+        position: absolute;
+        left: 80vw;
+        top: 25vw;
+        animation: slide 2s infinite;
+
+    }
+
+    .bold1 #boldgraa {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        background-color: #DDDFDE;
+        position: absolute;
+        left: 70vw;
+        top: -15vw;
+        animation: pulse 2s infinite;
+
+    }
+
+    .bold1 #boldgul {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50%;
+        background-color: #D4D142;
+        position: absolute;
+        left: -5vw;
+        top: 40vw;
+        animation: slideup 2s infinite;
+
+    }
+
+    .bold1 #boldlaks {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background-color: #ED6B50;
+        position: absolute;
+        left: 5vw;
+        animation: slide 2s infinite;
+
+    }
+
+    .bold2 #boldroed {
+        width: 5vw;
+        height: 5vw;
+        border-radius: 50%;
+        background-color: #C83028;
+        position: absolute;
+        left: 35vw;
+        top: 45vw;
+        animation: slide 2s infinite;
+
+    }
+
+    .bold2 #boldgraa {
+        width: 6vw;
+        height: 6vw;
+        border-radius: 50%;
+        background-color: #DDDFDE;
+        position: absolute;
+        left: 24vw;
+        top: 25vw;
+        animation: pulse 2s infinite;
+
+    }
+
+    .bold2 #boldgul {
+        width: 16vw;
+        height: 16vw;
+        border-radius: 50%;
+        background-color: #D4D142;
+        position: absolute;
+        left: 28vw;
+        top: -10vw;
+        animation: slide 2s infinite;
+
+    }
+
+    .bold2 #boldlaks {
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        background-color: #ED6B50;
+        position: absolute;
+        left: 66vw;
+        top: 50vw;
+        animation: pulse 2s infinite;
+
+    }
+
+    .bold3 #boldroed {
+        width: 3vw;
+        height: 3vw;
+        border-radius: 50%;
+        background-color: #C83028;
+        position: absolute;
+        left: 48vw;
+        top: 8vw;
+        animation: slide 2s infinite;
+
+    }
+
+    .bold3 #boldgraa {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background-color: #DDDFDE;
+        position: absolute;
+        left: 4vw;
+        top: 3vw;
+        z-index: -1;
+        animation: pulse 2s infinite;
+
+    }
+
+    .bold3 #boldgul {
+        width: 4vw;
+        height: 4vw;
+        border-radius: 50%;
+        background-color: #D4D142;
+        position: absolute;
+        left: 65vw;
+        top: 35vw;
+        animation: slideup 2s infinite;
+
+    }
+
+    .bold3 #boldlaks {
+        width: 7vw;
+        height: 7vw;
+        border-radius: 50%;
+        background-color: #ED6B50;
+        position: absolute;
+        left: 68vw;
+        top: 17vw;
+        animation: pulse 2s infinite;
+
+    }
+
+    #first_section .section_wrapper {
+        position: relative;
+        top: -22vw;
+
+    }
+
+    #box_container2 img {
+        background-size: contain;
+
+    }
+
+    #box_sprite2 {
+        position: absolute;
+        left: 40vw;
+        top: 0vw;
+        animation: shake 2s infinite;
+    }
+
+    #box_sprite2 img {
+        width: 20vw;
+        height: 30vw;
+    }
+
+
+
+    #helloworld h2 {
+        position: relative;
+        font-size: 3vw;
+        position: relative;
+        text-align: center;
+        top: -28vw;
+        left: 0vw;
+        z-index: -2;
+    }
+
+    #first_section {
+        height: 10vw;
+    }
+
+    #second_section {
+        position: relative;
+        top: 25vw;
+        background-color: #004936;
+        height: 20vw;
+    }
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 5fr 3fr;
+    }
+
+    #second_section h2 {
+        color: whitesmoke;
+        font-size: 2vw;
+    }
+
+    #second_section p {
+        color: whitesmoke;
+        line-height: 1.8vw;
+        font-size: 1vw;
+    }
+
+    #second_section button {
+        background-color: transparent;
+        border-color: whitesmoke;
+        padding: 1vw;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        font-size: 1vw;
+        color: whitesmoke;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        top: -1vw;
+        left: -15vw;
+    }
+
+
+    #second_section button:hover {
+        background-color: whitesmoke;
+        border-style: hidden;
+        color: #004936;
+
+    }
+
+    .col #karo3 {
+        position: relative;
+        width: 60%;
+        left: 0vw;
+        top: -3vw;
+        box-shadow: 1vw 1vw #DDDFDE;
+
+
+    }
+
+    #theird_section {
+        position: relative;
+        top: 27vw;
+        height: 0vw;
+    }
+
+    #section_wrapper3 {
+        position: relative;
+        left: 20vw;
+    }
+
+    #portfolio {
+        font-size: 2vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        position: relative;
+        top: 5vw;
+
+    }
+
+    #portfoliotekst {
+        position: relative;
+        top: 5vw;
+        padding-bottom: 15vw;
+        line-height: 1.8vw;
+        font-size: 1vw;
+        width: 30vw;
+
+    }
+
+    #theird_section .section_wrapper {
+        display: none;
+
+    }
+
+    .knap1 #portfolioknap {
+        padding: 1vw;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        font-size: 1vw;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        position: relative;
+        top: -11vw;
+
+    }
+
+    #totop {
+        display: none;
+    }
+
+    #lillebold {
+        display: none;
+    }
+
+    footer {
+        position: relative;
+        top: 25vw;
+        height: 0vw;
+    }
+
+    footer p {
+        font-size: 1.5vw;
+    }
+
+
+}
+
+.hop {
+    animation-name: hop_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+@keyframes hop_kf {
+    0% {
+        transform: translateY(-4vw);
+    }
+
+    100% {
+        transform: translateY(10vw);
+        height: 39vw;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(2px, 2px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}

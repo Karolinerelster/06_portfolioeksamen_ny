@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "bulo-black";
+    src: url("bulo-black.woff") format("woff"),
+
+}
+
+
+body {
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    margin: 0vw;
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: 'bulo-black',
+        sans-serif;
+    font-weight: 900;
+    font-size: 4vw;
+    color: #212121;
+}
+
+h3 {
+    font-family: 'bulo-black',
+        sans-serif;
+    font-weight: 900;
+    font-size: 2vw;
+    color: #212121;
+
+
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    font-size: 4vw;
+    color: #212121
+}
+
+a {
+    font-family: 'bulo-black', sans-serif;
+    font-size: 4vw;
+    color: #212121
+}
+
+#logokaroline h1 {
+    font-family: "bulo-black";
+    font-size: 8vw;
+    line-height: 0.8;
+    color: #004936;
+    text-decoration: none;
+
+}
+
+.logo a {
+    width: 20vw;
+    position: relative;
+    top: 2vw;
+    left: vw;
+    text-decoration: none;
+}
+
+#my_header {
+    margin: 10vw;
+}
+
+button {
+    background-color: transparent;
+    border-color: #004936;
+    padding: 4vw;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 5vw;
+    color: #004936;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+    margin-left: 15vw;
+    margin-bottom: 8vw;
+    top: -5vw;
+}
+
+#theird_section button:hover {
+    background-color: #004936;
+    border-style: hidden;
+    color: whitesmoke;
+}
+
+/* bugermenu*/
+
+.hidden {
+    /* display: none;
+    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+
+#my_header {
+    height: 10vw
+}
+
+#my_nav {
+    height: 20vw;
+}
+
+#menuknap {
+    display: inline-block;
+    position: relative;
+    top: -15vw;
+    left: 75vw;
+    z-index: 2;
+    color: darkgray;
+}
+
+
+#menu {
+    transition: transform .3s;
+    transform-origin: top left;
+    position: relative;
+    top: -28vw;
+    left: 20vw;
+    z-index: 1
+}
+
+#menu a {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 10vw;
+    background-color: #004936;
+    justify-content: center;
+    margin-top: -.3vw;
+    color: whitesmoke;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 5vw;
+}
+
+#totop {
+    display: none;
+    position: fixed;
+    top: 170vw;
+    left: 63vw;
+    z-index: 99;
+    font-size: 4vw;
+    border: none;
+    outline: none;
+    background-color: #004936;
+    color: white;
+    cursor: pointer;
+    padding: 5vw;
+    height: 20vw;
+}
+
+#totop:hover {
+    background-color: #004936;
+}
+
+@media only screen and (min-width: 660px) {
+
+    #menuknap {
+        display: inline-block;
+        position: relative;
+        top: -9vw;
+        left: 80vw;
+        z-index: 2;
+        color: #003326;
+    }
+
+
+    #menu {
+        transition: transform .3s;
+        transform-origin: top left;
+        position: relative;
+        top: -18vw;
+        left: 30vw;
+        z-index: 1;
+
+    }
+
+    #logokaroline h2 {
+        font-family: "bulo-black";
+        font-size: 6vw;
+        line-height: 0.8;
+        color: #003326;
+        text-decoration: none;
+
+    }
+
+    #logokaroline h2:hover {
+        color: hotpink;
+
+    }
+
+    footer {
+        position: relative;
+        bottom: -30vw;
+        left: 1vw;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: 4vw;
+
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+    #menuknap {
+        display: none;
+    }
+
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu a {
+        display: inline;
+        color: #004936;
+        font-weight: 900;
+        text-transform: none;
+        text-decoration: none;
+        background-color: transparent;
+        font-size: 2vw;
+        position: relative;
+        top: 12vw;
+        left: 20vw;
+        padding: 2vw;
+    }
+
+    #menu a:hover {
+        text-decoration: underline;
+        line-height: 1vw;
+    }
+
+    #my_header {
+        margin: 5vw;
+    }
+
+    #logokaroline h1 {
+        font-family: "bulo-black";
+        font-size: 3vw;
+        line-height: 0.8;
+        color: #004936;
+        text-decoration: none;
+
+    }
+
+    .logo {
+        width: 1vw;
+        position: relative;
+        top: vw;
+        left: 2vw;
+    }
+
+    h2 {
+        font-size: 2vw;
+        color: #004936;
+        margin: 0;
+        position: relative;
+
+    }
+
+
+
+    p {
+        font-size: 1vw;
+        padding: 0;
+        position: relative;
+        text-align: left;
+    }
+
+    footer {
+        position: relative;
+        bottom: -30vw;
+        left: 1vw;
+    }
+
+    footer p {
+        text-align: center;
+
+    }
+
+}

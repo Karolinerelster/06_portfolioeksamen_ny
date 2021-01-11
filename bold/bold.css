@@ -1,0 +1,35 @@
+#box_container2 {
+    position: absolute;
+    top: 15vw;
+    left: 45vw;
+    justify-items: center;
+    border-radius: 50%;
+    background-image: url(bold.svg);
+    background-size: cover;
+}
+
+#box_sprite2 {
+    width: 40vw;
+    height: 40vw;
+}
+
+.hop {
+    animation-name: hop_kf;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+
+@keyframes hop_kf {
+    0% {
+        transform: translateY(0vw);
+    }
+
+    100% {
+        transform: translateY(30vw);
+        height: 39vw;
+
+    }
+}
