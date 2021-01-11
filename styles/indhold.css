@@ -168,7 +168,11 @@ footer p {
         width: 40%;
         position: relative;
         left: 5vw;
-        top: 0vw;
+        top: 10vw;
+        box-shadow: 1vw -1vw #004936;
+        z-index: -1;
+
+
     }
 
     #web2 {
@@ -176,17 +180,15 @@ footer p {
         position: relative;
         top: -10vw;
         left: 6vw;
-        z-index: -1;
 
     }
 
     #web3 {
-        width: 40%;
+        width: 30%;
         position: relative;
-        top: -6vw;
+        top: -10vw;
         left: 20vw;
         z-index: 1;
-        box-shadow: 1vw -1vw #004936;
 
     }
 
@@ -195,7 +197,7 @@ footer p {
         position: relative;
         top: 2vw;
         background-color: #004936;
-        height: 60vw;
+        height: 47vw;
     }
 
     #theird_section .section_wrapper {
@@ -207,7 +209,7 @@ footer p {
 
     #theird_section .col {
         position: relative;
-        top: 17vw;
+        top: 15vw;
         border-style: none;
         color: white;
 
@@ -226,6 +228,12 @@ footer p {
         border-style: none;
         color: white;
         top: -4.5vw;
+
+    }
+
+    #video_peter {
+        position: relative;
+        top: -5vw;
 
     }
 
@@ -249,25 +257,7 @@ footer p {
     }
 
 
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
 
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
-    }
 
     #prototype {
         position: relative;
