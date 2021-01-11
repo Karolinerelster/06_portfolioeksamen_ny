@@ -128,7 +128,6 @@ footer p {
         font-size: 2vw;
         color: #004936;
         margin-left: 7vw;
-        ;
         position: relative;
 
     }
@@ -140,7 +139,7 @@ footer p {
 
     #second_section {
         position: relative;
-        top: vw;
+        top: -4vw;
         height: 40vw;
     }
 

@@ -31,6 +31,9 @@ h3 {
     }
 }
 
+#theird_section {
+    height: 10vw;
+}
 
 #theird_section h3 {
     color: white;
@@ -40,7 +43,7 @@ h3 {
     position: relative;
     top: 5vw;
     background-color: #004936;
-    height: 140vw;
+    height: 110vw;
 }
 
 #theird_section .col {
@@ -48,38 +51,21 @@ h3 {
     top: 15vw;
 }
 
-#theird_section p {
+
+
+
+#theird_section li {
+    position: relative;
+    border-style: none;
     color: white;
-}
+    top: 5vw;
+    font-family: "Heebo";
+    font-size: 13w;
+    padding-bottom: 5vw;
+    left: 4vw;
+    width: 70vw;
+    text-align: justify;
 
-#theird_section button {
-    background-color: transparent;
-    border-color: whitesmoke;
-    padding: 3vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: whitesmoke;
-    position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
-}
-
-#theird_section button:hover {
-    background-color: whitesmoke;
-    border-style: hidden;
-    color: #004936;
-}
-
-#prototype {
-    position: relative;
-    left: 16vw;
-}
-
-#wireframe {
-    position: relative;
-    left: 20vw;
-    top: 4vw
 }
 
 #fourth_section {
@@ -89,7 +75,7 @@ h3 {
 
 #fourth_section .col {
     position: relative;
-    top: 15vw;
+    top: 10vw;
 }
 
 #fourth_section h2 {
@@ -104,7 +90,7 @@ footer {
 
 footer p {
     position: relative;
-    top: 15vw;
+    top: 35vw;
 }
 
 #fourth_section .section_wrapper {
@@ -289,8 +275,7 @@ border: 0.1vw solid #004936;
 
     #second_section {
         position: relative;
-        top: vw;
-        height: 30vw;
+        height: 22vw;
     }
 
     #second_section h3 {
@@ -307,6 +292,8 @@ border: 0.1vw solid #004936;
         display: grid;
         grid-template-columns: 3fr 5fr;
         margin-left: 7vw;
+        position: relative;
+        top: -4vw;
     }
 
     #billederafmig {
@@ -323,11 +310,37 @@ border: 0.1vw solid #004936;
         width: 80%;
         left: 6vw;
         top: 0vw;
-        ;
-        box-shadow: 1vw 1vw #DDDFDE;
+        z-index: 1;
+        box-shadow: 1vw 1vw #004936;
+        animation: slideommig 3s infinite;
 
 
     }
+
+    @keyframes slideommig {
+        0% {
+            transform: translateX(5vw);
+        }
+
+        50% {
+            transform: translateX(-5vw);
+
+        }
+
+        100% {
+            transform: translateX(5vw);
+
+        }
+    }
+
+    #second_section h2 {
+        position: relative;
+        top: -12vw;
+        left: -4vw;
+        color: black;
+
+    }
+
 
 
 
@@ -335,7 +348,7 @@ border: 0.1vw solid #004936;
         position: relative;
         top: 2vw;
         background-color: #004936;
-        height: 50vw;
+        height: 45vw;
     }
 
     #theird_section .section_wrapper {
@@ -347,13 +360,13 @@ border: 0.1vw solid #004936;
 
     .col #karo2 {
         position: relative;
-        width: 40%;
+        width: 35%;
         top: 0vw;
     }
 
     .col #karo1 {
         position: relative;
-        width: 40%;
+        width: 35%;
         top: -15vw;
         left: 8vw;
         z-index: 1;
@@ -373,15 +386,21 @@ border: 0.1vw solid #004936;
         position: relative;
         border-style: none;
         color: white;
-        top: -4.5vw;
+        top: -7.5vw;
 
     }
 
-    #theird_section .col p {
+    #theird_section li {
         position: relative;
         border-style: none;
         color: white;
-        top: -4.5vw;
+        top: -6.5vw;
+        font-family: "Heebo";
+        font-size: 1vw;
+        padding-bottom: 2vw;
+        left: -2vw;
+        width: 23vw;
+        text-align: justify;
 
     }
 
@@ -421,16 +440,16 @@ border: 0.1vw solid #004936;
 
     #fourth_section {
         position: relative;
-        top: 10vw;
-        height: 35vw;
+        top: 18vw;
+        height: 30vw;
 
 
     }
 
     #fourth_section .col {
         position: relative;
-        top: 3vw;
-        height: 20vw;
+        top: 10vw;
+        height: 0vw;
 
     }
 
@@ -452,8 +471,7 @@ border: 0.1vw solid #004936;
 
     footer {
         position: relative;
-        top: 6vw;
-        height: 0vw;
+        top: 16vw;
     }
 
     /*------------ kontakt formular--------------*/
@@ -469,7 +487,7 @@ border: 0.1vw solid #004936;
         width: 30vw;
         padding: 0vw;
         margin: 0vw;
-        top: -5vw;
+        top: -25vw;
         left: 2.5vw;
 
     }
@@ -479,7 +497,7 @@ border: 0.1vw solid #004936;
         padding: 0vw;
         margin: 0vw;
         left: 2.5vw;
-        top: -7vw;
+        top: -27vw;
         width: 30vw;
         text-align: justify;
     }

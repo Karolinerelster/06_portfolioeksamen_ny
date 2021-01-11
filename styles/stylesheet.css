@@ -421,16 +421,11 @@
 
     }
 
-    #box_container2 img {
-        background-size: contain;
-
-    }
 
     #box_sprite2 {
         position: absolute;
         left: 40vw;
-        top: 0vw;
-        animation: shake 2s infinite;
+        top: -2vw;
     }
 
     #box_sprite2 img {
