@@ -545,7 +545,7 @@ footer p {
         padding-bottom: 15vw;
         line-height: 1.8vw;
         font-size: 1vw;
-        width: 30vw;
+        width: 20vw;
 
     }
 
@@ -553,6 +553,55 @@ footer p {
         display: none;
 
     }
+
+    .boldefarver {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: 20vw;
+        grid-column-gap: 2vw;
+        position: relative;
+        top: -40vw;
+        left: 50vw;
+    }
+
+    #laks {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background-color: #ED6B50;
+        animation: pulse 2s infinite;
+
+    }
+
+    #gul {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background-color: #D4D142;
+        animation: slide 2s infinite;
+
+
+    }
+
+    #roed {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background-color: #C83028;
+        animation: pulse 2s infinite;
+
+
+    }
+
+    #graa {
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background-color: #DDDFDE;
+        animation: slideup 2s infinite;
+
+    }
+
 
     .knap1 #portfolioknap {
         padding: 1vw;

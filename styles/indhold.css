@@ -165,12 +165,11 @@ footer p {
     }
 
     #web1 {
-        width: 40%;
+        width: 50%;
         position: relative;
         left: 5vw;
         top: 10vw;
         box-shadow: 1vw -1vw #004936;
-        z-index: -1;
 
 
     }
@@ -178,17 +177,17 @@ footer p {
     #web2 {
         width: 30%;
         position: relative;
-        top: -10vw;
-        left: 6vw;
+        top: -15vw;
+        left: -10vw;
 
     }
 
     #web3 {
         width: 30%;
         position: relative;
-        top: -10vw;
-        left: 20vw;
-        z-index: 1;
+        top: -25vw;
+        left: 30vw;
+        z-index: -1;
 
     }
 
