@@ -69,7 +69,7 @@ h3 {
 
 #fourth_section {
     position: relative;
-    height: 100vw;
+    height: 110vw;
 }
 
 #fourth_section .col {
@@ -164,7 +164,8 @@ select {
 }
 
 .form-style-1 .field-divided {
-    width: 49.77%;
+    width: 100%;
+    position: relative;
 }
 
 .form-style-1 input[type=text] {
@@ -191,33 +192,11 @@ select {
 
 }
 
-.form-style-1 input[type=submit],
-.form-style-1 input[type=button] {
-
-    background-color: transparent;
-    border-color: #004936;
-    padding: 2vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: #004936;
+.button_green {
+    width: 40vw;
     position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
-}
-
-
-.form-style-1 input[type=submit]:hover,
-.form-style-1 input[type=button]:hover {
-    background-color: #004936;
-    border-style: hidden;
-    color: whitesmoke;
-}
-
-
-
-.form-style-1 .required {
-    color: #212121;
+    left: -15vw;
+    top: 2vw;
 }
 
 
@@ -457,13 +436,13 @@ select {
 
     footer {
         position: relative;
-        top: 0vw;
+        top: -5vw;
         height: 0vw;
     }
 
     footer p {
         position: relative;
-        top: 18vw;
+        top: 25vw;
     }
 
     /*------------ kontakt formular--------------*/
@@ -541,7 +520,7 @@ select {
     }
 
     .form-style-1 .field-divided {
-        width: 49.77%;
+        width: 100%;
     }
 
     .form-style-1 input[type=text] {
@@ -568,14 +547,12 @@ select {
 
     }
 
-    .form-style-1 .required {
-        color: #212121;
-    }
 
     .button_green {
         position: relative;
         top: 2vw;
         left: -15vw;
+        width: 10vw;
     }
 
 }

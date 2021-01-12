@@ -108,23 +108,27 @@
                     </div>
                     <div class="col">
                         <form action="tak.html" class="form-style-1">
-                            <label>Fulde Navn <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="Fornavn" /> <input type="text" name="field2" class="field-divided" placeholder="Efternavn" />
+                            <label>Fornavn*<input type="text" name="field1" class="field-divided" placeholder="Fornavn" required> </label>
+
+                            <label>Efternavn* <input type="text" name="field2" class="field-divided" placeholder="Efternavn" required>
+                            </label>
 
 
-                            <label>Email <span class="required">*</span></label>
-                            <input type="email" name="field3" class="field-long" />
+                            <label>Email*
+                                <input type="email" name="field3" class="field-long" required>
+                            </label>
 
-                            <label>Emne</label>
-                            <select name="field4" class="field-select">
-                                <option value="Advertise">Generelt</option>
-                                <option value="Partnership">Grafisk design</option>
-                                <option value="General Question">Opsætning af hjemmeside</option>
-                            </select>
+                            <label>Emne
+                                <select name="field4" class="field-select">
+                                    <option value="Advertise">Generelt</option>
+                                    <option value="Partnership">Grafisk design</option>
+                                    <option value="General Question">Opsætning af hjemmeside</option>
+                                </select>
+                            </label>
 
-                            <label>Din besked <span class="required">*</span></label>
-                            <textarea name="field5" id="field5" class="field-long field-textarea"></textarea>
-
-
+                            <label>Din besked*
+                                <textarea name="field5" id="field5" class="field-long field-textarea" required></textarea>
+                            </label>
                             <button class="button_green" value="Send">Send besked </button>
                         </form>
 
