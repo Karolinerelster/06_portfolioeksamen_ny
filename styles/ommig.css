@@ -370,40 +370,6 @@ select {
 
     }
 
-
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
-
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
-    }
-
-    #prototype {
-        position: relative;
-        top: -12vw;
-        left: -1vw;
-
-    }
-
-    #wireframe {
-        position: relative;
-        top: 1.5vw;
-        left: -14vw;
-    }
-
     #fourth_section {
         position: relative;
         top: 18vw;
