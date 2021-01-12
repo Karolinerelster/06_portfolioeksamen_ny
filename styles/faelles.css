@@ -1,9 +1,11 @@
 @font-face {
-    font-family: "bulo-black";
-    src: url("/bulo_font/bulo-black.woff") format ("woff"),
-        url ("/bulo_font/bulo-black.woff2") format ("woff");
+    font-family: 'Bulo-black';
+    src: url('/font/Bulo-Black.woff2') format('woff2'),
+        url('/font/Bulo-Black.woff') format('woff'),
+        url('/font/Bulo-Black.svg#Bulo-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
-
 
 body {
     background-color: whitesmoke;
