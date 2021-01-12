@@ -84,12 +84,13 @@ h3 {
 }
 
 footer {
-    height: 20vw;
+    position: relative;
+    top: 50vw;
 }
 
 footer p {
     position: relative;
-    top: 35vw;
+    top: 5vw;
 }
 
 #fourth_section .section_wrapper {
@@ -442,7 +443,7 @@ select {
 
     footer p {
         position: relative;
-        top: 25vw;
+        top: 35vw;
     }
 
     /*------------ kontakt formular--------------*/

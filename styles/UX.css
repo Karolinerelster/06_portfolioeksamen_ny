@@ -37,7 +37,7 @@ h3 {
     position: relative;
     top: 5vw;
     background-color: #004936;
-    height: 120vw;
+    height: 130vw;
 }
 
 #theird_section .col {
@@ -49,34 +49,17 @@ h3 {
     color: white;
 }
 
-#theird_section button {
-    background-color: transparent;
-    border-color: whitesmoke;
-    padding: 3vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: whitesmoke;
-    position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
-}
-
-#theird_section button:hover {
-    background-color: whitesmoke;
-    border-style: hidden;
-    color: #004936;
-}
-
 #prototype {
     position: relative;
-    left: 16vw;
+    left: 10vw;
+    top: 5vw;
+
 }
 
 #wireframe {
     position: relative;
-    left: 20vw;
-    top: 4vw
+    left: 10vw;
+    top: 10vw
 }
 
 #fourth_section .col {
@@ -88,6 +71,11 @@ h3 {
     font-size: 7vw;
     line-height: 7vw;
     margin-right: 10vw;
+}
+
+footer p {
+    position: relative;
+    top: 15vw;
 }
 
 @media only screen and (min-width: 800px) {
@@ -279,7 +267,5 @@ h3 {
         position: relative;
         top: 20vw;
     }
-
-
 
 }

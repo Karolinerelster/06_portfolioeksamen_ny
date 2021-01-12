@@ -1,7 +1,7 @@
 @font-face {
     font-family: "bulo-black";
-    src: url("bulo-black.woff") format("woff");
-
+    src: url("bulo_font/bulo-black.woff") format("woff");
+    src: url("bulo_font/bulo-black.woff2") format("woff2");
 }
 
 

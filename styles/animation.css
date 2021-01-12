@@ -6,30 +6,20 @@ h2 {
     top: 3vw;
 }
 
-
-
 p {
     font-size: 3vw;
     margin-left: 10vw;
     position: relative;
     text-align: left;
     margin-right: 10vw;
-
 }
 
 h3 {
     margin-left: 10vw;
     font-size: 4vw;
-
 }
 
 
-
-@media only screen and (max-width: 800px) {
-    img {
-        display: none;
-    }
-}
 
 
 #theird_section h3 {
@@ -40,7 +30,7 @@ h3 {
     position: relative;
     top: 5vw;
     background-color: #004936;
-    height: 140vw;
+    height: 145vw;
 }
 
 #theird_section .col {
@@ -52,44 +42,21 @@ h3 {
     color: white;
 }
 
-#theird_section button {
-    background-color: transparent;
-    border-color: whitesmoke;
-    padding: 3vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: whitesmoke;
+#assetsliste .button {
     position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
+    top: 5vw;
+    left: 10vw;
 }
 
-#theird_section button:hover {
-    background-color: whitesmoke;
-    border-style: hidden;
-    color: #004936;
-}
-
-#prototype {
+#spil .button {
     position: relative;
-    left: 16vw;
-}
-
-#wireframe {
-    position: relative;
-    left: 20vw;
-    top: 4vw
+    top: 1vw;
+    left: 10vw;
 }
 
 #fourth_section {
     position: relative;
     height: 100vw;
-}
-
-#fourth_section .col {
-    position: relative;
-    top: 15vw;
 }
 
 #fourth_section h2 {
@@ -98,13 +65,28 @@ h3 {
     margin-right: 10vw;
 }
 
+
+
+#fourth_section .col {
+    position: relative;
+    top: 15vw;
+    height: 20vw;
+
+}
+
 footer {
     height: 20vw;
 }
 
 footer p {
     position: relative;
-    top: 15vw;
+    top: 55vw;
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 800px) {
@@ -139,7 +121,6 @@ footer p {
 
     #second_section {
         position: relative;
-        top: vw;
         height: 40vw;
     }
 
@@ -248,14 +229,14 @@ footer p {
     #fourth_section {
         position: relative;
         top: 10vw;
-        height: 35vw;
+        height: 25vw;
     }
 
 
     #assetsliste .button {
         position: relative;
         top: -1vw;
-        height: 1.3vw;
+        left: 0vw;
 
 
     }
@@ -264,7 +245,6 @@ footer p {
         position: relative;
         left: 15vw;
         top: -13vw;
-        height: 1.3vw;
 
     }
 
@@ -317,7 +297,12 @@ footer p {
 
     footer {
         position: relative;
-        top: 6vw;
+        height: 8vw;
+    }
+
+    footer p {
+        position: relative;
+        top: 4vw;
     }
 
 }
