@@ -9,10 +9,3 @@ function hopRed() {
 
 
 }
-
-function hopRed() {
-    console.log("shake")
-    document.querySelector("#box_container2").classList.toggle("hop")
-
-
-}

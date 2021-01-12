@@ -52,34 +52,17 @@ h3 {
     color: white;
 }
 
-#theird_section button {
-    background-color: transparent;
-    border-color: whitesmoke;
-    padding: 3vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: whitesmoke;
-    position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
-}
-
-#theird_section button:hover {
-    background-color: whitesmoke;
-    border-style: hidden;
-    color: #004936;
-}
-
 #prototype {
     position: relative;
-    left: 16vw;
+    left: 10vw;
+    top: 5vw;
 }
 
 #wireframe {
     position: relative;
-    left: 20vw;
-    top: 4vw
+    top: 10vw;
+    left: 10vw;
+
 }
 
 #fourth_section {
@@ -140,7 +123,6 @@ footer p {
 
     #second_section {
         position: relative;
-        top: vw;
         height: 35vw;
     }
 
@@ -255,32 +237,17 @@ footer p {
 
     }
 
-
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
-
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
-    }
-
-
     #wireframe {
         position: relative;
-        top: 1.5vw;
-        left: -15vw;
+        left: 0vw;
+        top: 4vw;
+    }
+
+
+    #prototype {
+        position: relative;
+        top: -8vw;
+        left: 15vw;
     }
 
     #fourth_section {
@@ -339,6 +306,4 @@ footer p {
         position: relative;
         top: 0vw;
     }
-
-
 }

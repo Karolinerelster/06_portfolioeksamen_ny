@@ -31,6 +31,12 @@ h3 {
     }
 }
 
+#video_peter video {
+    position: relative;
+    padding: 5vw;
+    left: 5vw;
+    width: 80vw;
+}
 
 #theird_section h3 {
     color: white;
@@ -40,7 +46,7 @@ h3 {
     position: relative;
     top: 5vw;
     background-color: #004936;
-    height: 140vw;
+    height: 170vw;
 }
 
 #theird_section .col {
@@ -50,25 +56,6 @@ h3 {
 
 #theird_section p {
     color: white;
-}
-
-#theird_section button {
-    background-color: transparent;
-    border-color: whitesmoke;
-    padding: 3vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
-    font-size: 3vw;
-    color: whitesmoke;
-    position: relative;
-    border: 0.1vw solid;
-    transition-duration: 0.4s;
-}
-
-#theird_section button:hover {
-    background-color: whitesmoke;
-    border-style: hidden;
-    color: #004936;
 }
 
 #fourth_section img {
@@ -91,13 +78,37 @@ h3 {
     margin-right: 10vw;
 }
 
+#karenrelsterdknu .button_green {
+    width: 60vw;
+    position: relative;
+    top: 4vw;
+    left: -5vw;
+
+
+}
+
+#karenrelsterdk .button_green {
+    position: relative;
+    top: 2vw;
+    left: -5vw;
+}
+
 footer {
-    height: 20vw;
+    height: 25vw;
+
 }
 
 footer p {
     position: relative;
-    top: 15vw;
+    top: 155vw;
+
+}
+
+.video {
+    position: relative;
+    left: 5vw;
+    padding: 5vw;
+    width: 76vw;
 }
 
 @media only screen and (min-width: 800px) {
@@ -194,6 +205,10 @@ footer p {
         margin-right: 7vw;
     }
 
+    #video_peter {
+        left: 0vw;
+    }
+
     #theird_section .col {
         position: relative;
         top: 15vw;
@@ -218,9 +233,12 @@ footer p {
 
     }
 
-    #video_peter {
+    #video_peter video {
         position: relative;
-        top: -5vw;
+        top: -8vw;
+        left: -3vw;
+        padding: 0vw;
+        width: 40vw;
 
     }
 
@@ -268,6 +286,8 @@ footer p {
         position: relative;
         top: 15vw;
         left: 5vw;
+        width: 35vw;
+        padding: 0vw;
     }
 
 
@@ -306,18 +326,31 @@ footer p {
         padding-right: 5vw;
     }
 
-    #karenrelsterdk {
-        width: 15vw;
-        padding: 1.5vw;
-        margin: 0vw;
-        font-size: 1.2vw;
+    #karenrelsterdknu .button_green {
+        width: 12vw;
+        position: relative;
+        left: -15vw;
         top: 2vw;
+        height: 1.3vw;
+
+
+    }
+
+    #karenrelsterdk .button_green {
+        position: relative;
+        top: -9.9vw;
+        height: 1.3vw;
+        left: 2vw;
     }
 
     footer {
         position: relative;
         top: 15vw;
         height: 0vw;
+    }
+
+    footer p {
+        top: 16vw;
     }
 
 }

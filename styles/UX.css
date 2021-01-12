@@ -6,8 +6,6 @@ h2 {
     top: 3vw;
 }
 
-
-
 p {
     font-size: 3vw;
     margin-left: 10vw;
@@ -22,7 +20,6 @@ h3 {
     font-size: 4vw;
 
 }
-
 
 
 @media only screen and (max-width: 800px) {
@@ -221,38 +218,22 @@ h3 {
         top: -4vw;
     }
 
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
 
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
+
+    #wireframe {
+        position: relative;
+        top: 5vw;
+        left: 0vw;
     }
 
     #prototype {
         position: relative;
-        top: -10vw;
-        left: -1vw;
+        top: -7vw;
+        left: 15vw;
 
     }
 
-    #wireframe {
-        position: relative;
-        top: 3.5vw;
-        left: -14vw;
-    }
+
 
     #fourth_section {
         position: relative;

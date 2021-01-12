@@ -60,7 +60,6 @@ h3 {
     color: white;
     top: 5vw;
     font-family: "Heebo";
-    font-size: 13w;
     padding-bottom: 5vw;
     left: 4vw;
     width: 70vw;
@@ -117,8 +116,6 @@ footer p {
     top: -5vw;
 }
 
-<style type="text/css" > .form-style-1 {}
-
 .form-style-1 {
     position: relative;
     padding: 0vw;
@@ -135,7 +132,7 @@ footer p {
     list-style: none;
     margin: 1vw 0 0 0;
     color: #004936;
-    font-family: 13px, "Heebo", "Heebo";
+    font-family: "Heebo", "Heebo";
 
 }
 
@@ -159,30 +156,12 @@ footer p {
 textarea,
 select {
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    border: 0.vw solid #BEBEBE;
+    border: 0.1vw solid #BEBEBE;
     padding: 0.7vw;
     margin: 0vw;
-    -webkit-transition: all 0.30s ease-in-out;
-    -moz-transition: all 0.30s ease-in-out;
-    -ms-transition: all 0.30s ease-in-out;
-    -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out;
     outline: none;
 }
-
-.form-style-1 input[type=text]:focus,
-.form-style-1 input[type=date]:focus,
-.form-style-1 input[type=datetime]:focus,
-.form-style-1 input[type=number]:focus,
-.form-style-1 input[type=search]:focus,
-.form-style-1 input[type=time]:focus,
-.form-style-1 input[type=url]:focus,
-.form-style-1 input[type=email]:focus,
-.form-style-1 textarea:focus,
-.form-style-1 select:focus;
-border: 0.1vw solid #004936;
-
 
 .form-style-1 .field-divided {
     width: 49.77%;
@@ -287,6 +266,13 @@ border: 0.1vw solid #004936;
         position: relative;
         top: 2vw;
     }
+
+    .col #ked {
+        position: relative;
+        top: -15vw;
+        left: 20vw;
+    }
+
 
     #second_section .section_wrapper {
         display: grid;
@@ -502,8 +488,6 @@ border: 0.1vw solid #004936;
         text-align: justify;
     }
 
-    <style type="text/css" > .form-style-1 {}
-
     .form-style-1 {
         position: relative;
         padding: 0vw;
@@ -520,7 +504,7 @@ border: 0.1vw solid #004936;
         list-style: none;
         margin: 1vw 0 0 0;
         color: #004936;
-        font-family: 13px, "Heebo", "Heebo";
+        font-family: "Heebo", "Heebo";
 
     }
 
@@ -544,30 +528,12 @@ border: 0.1vw solid #004936;
     textarea,
     select {
         box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        border: 0.vw solid #BEBEBE;
+        border: 0.1vw solid #BEBEBE;
         padding: 0.7vw;
         margin: 0vw;
-        -webkit-transition: all 0.30s ease-in-out;
-        -moz-transition: all 0.30s ease-in-out;
-        -ms-transition: all 0.30s ease-in-out;
-        -o-transition: all 0.30s ease-in-out;
+        transition: all 0.30s ease-in-out;
         outline: none;
     }
-
-    .form-style-1 input[type=text]:focus,
-    .form-style-1 input[type=date]:focus,
-    .form-style-1 input[type=datetime]:focus,
-    .form-style-1 input[type=number]:focus,
-    .form-style-1 input[type=search]:focus,
-    .form-style-1 input[type=time]:focus,
-    .form-style-1 input[type=url]:focus,
-    .form-style-1 input[type=email]:focus,
-    .form-style-1 textarea:focus,
-    .form-style-1 select:focus;
-    border: 0.1vw solid #004936;
-
 
     .form-style-1 .field-divided {
         width: 49.77%;
@@ -581,7 +547,7 @@ border: 0.1vw solid #004936;
 
     .form-style-1 .field-long {
         width: 100%;
-        font-family: "Heebo"
+        font-family: "Heebo";
 
     }
 

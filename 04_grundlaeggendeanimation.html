@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;900&display=swap" rel="stylesheet">
 
-    <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -33,14 +32,13 @@
                 </a>
             </div>
 
-            <!--------------bugermenu---------------->
             <div id="menuknap">☰</div>
             <ul id="menu" class="hidden">
-                <div id="nav_links">
+                <li id="nav_links">
                     <a href="index.html">Forside</a>
                     <a href="portfolio.html">Portfolio</a>
                     <a href="ommig.html">Om mig</a>
-                </div>
+                </li>
 
             </ul>
 
@@ -63,7 +61,7 @@
                     <h3>Idé og pro-produktion
 
                     </h3>
-                    <p>I dette tema skulle vi producere vores eget interaktive animerede spil. I første fase var primære fokus at opnå viden om komposition og layout i digital medieproduktion. Derudover fik vi en række metoder til at kunne skitsere og idegenererings-teknikker for at fremme den kreative ideudvikling. Vi brugte f.eks. mindmaps og “kryds-metoden”, for at finde forskellige ideer til spillet. Derefter skulle vi skitsere spillet og lave det i en lofi papirudgave. <br><br>Da jeg tidligere har arbejdet som sushikok og elsker sushi, var min ide klar! Jeg ville lave “Sushi Spillet”. Ideèn med spillet er konceptet running sushi, på en restaurant, der nok ikke lige har en elite-smiley. Man skulle sørger for at samle det gode sushi, og undgå at spise det dårlige, for ikke at blive forgiftet. <br><br> Da vi havde skitseres vores ide, skulle den testes. Vi skulle vise en testperson, vores ide med spillet. Dette foregik gennem en hurtigt “tænke højt test”. De inputs jeg fik fra testpersonen, endte faktisk med at være afgørende for, hvordan mit spil skulle være.
+                    <p>I dette tema skulle vi producere vores eget interaktive animerede spil. I første fase var primære fokus at opnå viden om komposition og layout i digital medieproduktion. Derudover fik vi en række metoder, til at kunne skitsere og idégenereringsteknikker for at fremme den kreative idéudvikling. Vi brugte f.eks. mindmaps og “kryds-metoden”, for at finde forskellige idéer til spillet. Derefter skulle vi skitsere spillet og lave det i en lofi papirudgave. <br><br>Da jeg tidligere har arbejdet som sushikok og elsker sushi, var min idé klar! Jeg ville lave “Sushi Spillet”. Ideèn med spillet er konceptet, running sushi, på en restaurant, der nok ikke lige har en elite-smiley. Man skulle sørge for at samle det gode sushi, og undgå at spise det dårlige, for ikke at blive forgiftet. <br><br> Da vi havde skitseret vores idé, skulle den testes. Vi skulle vise en testperson, vores idé med spillet. Dette foregik gennem en hurtigt “tænke højt test”. De inputs jeg fik fra testpersonen, endte faktisk med at være afgørende for, hvordan mit spil skulle være.
 
                     </p>
 
@@ -84,19 +82,19 @@
                 <div class="col">
                     <h3>Design og udvikling af brugergrænseflader
                     </h3>
-                    <p>I denne del af teamet skulle vi ud fra vores opnåede viden og færdigheder, skabe spil-elementer, baggrundsdesign og ui-elementer. Her gjorde jeg brug af mine selvlærte evner i Adobe illustrator, til at skabe enkelt indhold, med en fast konsistens, så det hele passede sammen. Det var vigtigt at det skulle være et simpelt og overskueligt design. Min inspiration kommer primært fra mine egne projekter og flat design som helhed, som jeg lærte om i 02 grundlæggende web. Jeg synes at stilarten flat design, går hånd i hånd med den japanske minimalisme. Hvor ”less is more” Derfor har jeg forsøgt at anvende få elementer. <br><br> Jeg produceret en udvidet styletile, hvor jeg kommer omkring formgivning, farver, fonte, spil -og ui-elementer. Derudover skulle vi producere en assetsliste, med ovenstående, der skulle kodes i html og styles i css.
+                    <p>I denne del af teamet skulle vi ud fra vores opnåede viden og færdigheder, skabe spil-elementer, baggrundsdesign og ui-elementer. Her gjorde jeg brug af mine selvlærte evner i Adobe Illustrator, til at skabe enkelt indhold, med en fast konsistens, så det hele passede sammen. Det var vigtigt at det skulle være et simpelt og overskueligt design. Min inspiration kommer primært fra mine egne projekter og flat design som helhed, som jeg lærte om i 02 grundlæggende web. Jeg synes at stilarten flat design, går hånd i hånd med den japanske minimalisme, hvor ”less is more”. Jeg har derfor forsøgt at anvende få elementer. <br><br> Jeg producerede en udvidet styletile, hvor jeg kom omkring formgivning, farver, fonte, spil -og ui-elementer. Derudover skulle vi producere en assetsliste, med ovenstående, der skulle kodes i html og styles i css.
                     </p>
 
                     <div class="knap">
                         <div id="assetsliste">
                             <a href="http://karolinerelsterlarsen.dk/kea/04_animation/index.html" target="_blank">
-                                <button id="assest">Se min assetsliste</button>
+                                <div class="button">Se min assetsliste</div>
                             </a>
                         </div>
                     </div>
                     <div class="knap">
                         <div id="spil"> <a href="http://karolinerelsterlarsen.dk/kea/04_animation/nyindex.html" target="_blank">
-                                <button id="prototype_xd">Prøv mit spil</button>
+                                <div class="button">Prøv mit spil</div>
                             </a>
                         </div>
                     </div>
@@ -111,7 +109,7 @@
 
                     </h3>
                     <p>
-                        Spillet skulle nu kodes i html, her brugte jeg de færdigheder jeg fik fra 02 grundlæggende web. Dette var meget simpelt da jeg allerede havde opsat alle mine elementer i min assetsliste. Ved kodningen af spil-elementerne var det vigtigt at anvende .class, da de forskellige elementer, skulle have forskellige animationer og js. f.eks. .goodSushi, .badSushi, .extraGood. Derudover var det vigtigt at sætte ens ui-elementer på score-boardet ind i en #container, og derefter en #sprite, da elementerne skulle have flere animationer eller funktioner i javascript. <br><br>I css skulle alle animationerne kodes. Dette var en helt ny og spændende process, da man virkelig kunne skabe liv i spillet. Her gik det virkelig op for mig, hvordan .class virker, da det hele gik op i en højere enhed, og ikke bare et grid, med columns og rows. <br><br>Vi fik redskaber, til at skabe et overblik over, hvordan ens spil skal forløbe sig. Her udarbejde jeg et statemachine diagram, til at gøre det let at overskuelig, når vi skulle igang med javascript. Dernæst blev vi introduceret til en helt ny verden, javascript. Her var der tale om variabler, tællere, funktionskald og this. Med disse kunne jeg lave et funktionsdygtigt spil. f.eks. ved at lave en tælle på en variabel (point). Da vi nåede til restart og random position fattede jeg ingenting. Når jeg normalt ikke forstår noget, holder jeg mig til og følger meget med i undervisningen. Men så skete det er ikke måtte ske. Se vedhæftet billede. Jeg fik derfor ikke færdig gjort mit spil:
+                        Spillet skulle nu kodes i html, her brugte jeg de færdigheder jeg fik fra 02 grundlæggende web. Dette var meget simpelt da jeg allerede havde opsat alle mine elementer i min assetsliste. Ved kodningen af spil-elementerne var det vigtigt at anvende .class, da de forskellige elementer, skulle have forskellige animationer og js. f.eks. .goodSushi, .badSushi, .extraGood. Derudover var det vigtigt at sætte ens ui-elementer ind i en #container, og derefter en #sprite, da elementerne skulle have flere animationer eller funktioner i javascript. <br><br>I css skulle alle animationerne kodes. Dette var en helt ny og spændende proces, da man virkelig kunne skabe liv i spillet. Her gik det op for mig, hvordan .class virker, da det hele gik op i en højere enhed, og ikke bare var et grid, med columns og rows. <br><br>Vi fik redskaber, til at skabe et overblik over, hvordan ens spil skal forløbe sig. Her udarbejdede jeg et statemachinediagram, til at gøre det let og overskueligt, når vi skulle igang med javascript. Dernæst blev vi introduceret til en helt ny verden, javascript. Her var der tale om variabler, tællere, funktionskald og this. Med disse kunne jeg lave et funktionsdygtigt spil. f.eks. ved at lave en tæller på en variabel (point). Da vi nåede til restart og random position fattede jeg ingenting. Når jeg normalt ikke forstår noget, holder jeg mig til og følger meget med i undervisningen. Men så skete det er ikke måtte ske. Se vedhæftet billede. Jeg fik derfor ikke færdig gjort mit spil.
                     </p>
                 </div>
                 <div class="col">
@@ -127,11 +125,7 @@
     </main>
 
 
-
-</body>
-<footer>
-    <p>
-        COPYRIGHT © 2020 KAROLINE RELSTER</p>
-</footer>
-
-</html>
+    <footer>
+        <p>COPYRIGHT © 2020 KAROLINE RELSTER</p>
+    </footer>
+</body></html>

@@ -39,7 +39,9 @@ p {
 a {
     font-family: 'bulo-black', sans-serif;
     font-size: 4vw;
-    color: #212121
+    color: #212121;
+    text-decoration: none;
+
 }
 
 #logokaroline h1 {
@@ -63,23 +65,52 @@ a {
     margin: 10vw;
 }
 
-button {
+
+.button {
+    background-color: transparent;
+    border-color: whitesmoke;
+    padding: 4vw;
+    font-family: 'bulo-black';
+    font-size: 3.5vw;
+    color: whitesmoke;
+    position: relative;
+    border: 0.1vw solid;
+    transition-duration: 0.4s;
+    margin-bottom: 8vw;
+    top: -5vw;
+    width: 30vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    border-style: hidden;
+    color: #004936;
+}
+
+.button_green {
     background-color: transparent;
     border-color: #004936;
     padding: 4vw;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 900;
+    font-family: 'bulo-black';
     font-size: 5vw;
     color: #004936;
     position: relative;
     border: 0.1vw solid;
+    width: 30vw;
+    text-align: center;
     transition-duration: 0.4s;
     margin-left: 15vw;
     margin-bottom: 8vw;
     top: -5vw;
 }
 
-#theird_section button:hover {
+button_green:hover {
     background-color: #004936;
     border-style: hidden;
     color: whitesmoke;
@@ -277,7 +308,33 @@ footer p {
 
     }
 
+    .button {
+        background-color: transparent;
+        border-color: whitesmoke;
+        padding: 1.2vw;
+        font-size: 1vw;
+        width: 10vw;
+        color: whitesmoke;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        margin-bottom: 8vw;
+        text-align: center;
+    }
 
+    .button_green {
+        background-color: transparent;
+        border-color: #004936;
+        padding: 1.2vw;
+        font-weight: 900;
+        font-size: 1vw;
+        width: 10vw;
+        color: #004936;
+        position: relative;
+        border: 0.1vw solid;
+        transition-duration: 0.4s;
+        margin-bottom: 8vw;
+    }
 
     p {
         font-size: 1vw;
