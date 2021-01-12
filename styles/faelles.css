@@ -110,7 +110,7 @@ a {
     top: -5vw;
 }
 
-button_green:hover {
+.button_green:hover {
     background-color: #004936;
     border-style: hidden;
     color: whitesmoke;

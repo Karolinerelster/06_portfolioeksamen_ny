@@ -244,25 +244,6 @@ footer p {
     }
 
 
-    #theird_section button {
-        background-color: transparent;
-        border-color: whitesmoke;
-        padding: 1vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1vw;
-        color: whitesmoke;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-        width: 11vw;
-    }
-
-    #theird_section button:hover {
-        background-color: whitesmoke;
-        border-style: hidden;
-        color: #004936;
-    }
 
     #fourth_section {
         position: relative;
@@ -271,17 +252,19 @@ footer p {
     }
 
 
-    #assetsliste {
+    #assetsliste .button {
         position: relative;
-        top: 3.5vw;
-        left: -14vw;
+        top: -1vw;
+        height: 1.3vw;
+
 
     }
 
-    #spil {
+    #spil .button {
         position: relative;
-        top: -10.2vw;
-        left: -1vw;
+        left: 15vw;
+        top: -13vw;
+        height: 1.3vw;
 
     }
 

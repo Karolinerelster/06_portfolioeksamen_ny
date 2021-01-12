@@ -235,10 +235,9 @@ footer p {
 
     #video_peter video {
         position: relative;
-        top: -8vw;
-        left: -3vw;
         padding: 0vw;
         width: 40vw;
+        top: -3vw;
 
     }
 
