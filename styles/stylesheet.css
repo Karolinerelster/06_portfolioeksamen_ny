@@ -561,13 +561,11 @@
         border-radius: 50%;
         background-color: #DDDFDE;
         animation: slideup 2s infinite;
-
     }
 
     footer {
         position: relative;
-        height: 0vw;
-        top: -2vw;
+        top: 0vw;
     }
 
     footer p {

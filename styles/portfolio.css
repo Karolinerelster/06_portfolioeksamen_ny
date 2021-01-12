@@ -254,7 +254,6 @@ p {
     #web {
         position: relative;
         animation: hop2 0.6s infinite ease-in alternate;
-        animation-delay: 0.5s;
 
 
     }
@@ -327,47 +326,6 @@ p {
         top: 50%;
         left: 50%;
 
-        transform: translate(-50%, -50%);
-        text-align: center;
-        border-style: none;
-    }
-
-    #helloworldimg {
-        display: none;
-    }
-
-    #helloportfolio {
-        position: relative;
-        animation: hop1 0.8s infinite ease-in alternate;
-        animation-delay: 0.2s;
-
-    }
-
-    .overlay5 {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 15vw;
-        width: 15vw;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #004936;
-        border-radius: 50%;
-    }
-
-    #helloportfolio:hover .overlay5 {
-        opacity: 1;
-    }
-
-    .text5 {
-        color: white;
-        font-size: 2vw;
-        position: absolute;
-        border-style: none;
-        top: 50%;
-        left: 50%;
         transform: translate(-50%, -50%);
         text-align: center;
         border-style: none;

@@ -126,7 +126,7 @@ footer p {
 
 }
 
-.form-style-1 li {
+form {
     padding: 0;
     display: block;
     list-style: none;
@@ -137,7 +137,7 @@ footer p {
 }
 
 .form-style-1 label {
-    margin: 0 0 0.3vw 0;
+    margin: 3vw 0 0.3vw 0;
     padding: 0px;
     display: block;
     font-weight: bold;
@@ -457,7 +457,13 @@ select {
 
     footer {
         position: relative;
-        top: 16vw;
+        top: 0vw;
+        height: 0vw;
+    }
+
+    footer p {
+        position: relative;
+        top: 18vw;
     }
 
     /*------------ kontakt formular--------------*/
@@ -484,7 +490,6 @@ select {
         margin: 0vw;
         left: 2.5vw;
         top: -27vw;
-        width: 30vw;
         text-align: justify;
     }
 
@@ -493,12 +498,12 @@ select {
         padding: 0vw;
         width: 50vw;
         transform: scale(0.9);
-        top: -17vw;
+        top: -20vw;
 
 
     }
 
-    .form-style-1 li {
+    form {
         padding: 0;
         display: block;
         list-style: none;
@@ -509,7 +514,7 @@ select {
     }
 
     .form-style-1 label {
-        margin: 0 0 0.3vw 0;
+        margin: 1vw 0 0.3vw 0;
         padding: 0px;
         display: block;
         font-weight: bold;
@@ -563,32 +568,14 @@ select {
 
     }
 
-    .form-style-1 input[type=submit],
-    .form-style-1 input[type=button] {
-
-        background-color: transparent;
-        border-color: #004936;
-        padding: 1.2vw;
-        font-family: 'Heebo', sans-serif;
-        font-weight: 900;
-        font-size: 1.2vw;
-        color: #004936;
-        position: relative;
-        border: 0.1vw solid;
-        transition-duration: 0.4s;
-    }
-
-
-    .form-style-1 input[type=submit]:hover,
-    .form-style-1 input[type=button]:hover {
-        background-color: #004936;
-        border-style: hidden;
-        color: whitesmoke;
-    }
-
-
-
     .form-style-1 .required {
         color: #212121;
     }
+
+    .button_green {
+        position: relative;
+        top: 2vw;
+        left: -15vw;
+    }
+
 }
