@@ -265,7 +265,12 @@ footer p {
 
     footer {
         position: relative;
-        top: 20vw;
+        top: 0vw;
+    }
+
+    footer p {
+        position: relative;
+        top: 15vw;
     }
 
 }
